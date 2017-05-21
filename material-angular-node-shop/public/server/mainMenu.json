@@ -1,0 +1,73 @@
+[{
+    "category": "Electronics",
+    "itemType": [{
+        "name": "Mobiles",
+        "item":[{
+            "name":"Apple"},
+            {"name":"Samsung"},
+            {"name":"Mi"},
+            {"name":"Lenovo"
+        }]
+    }, {
+        "name": "Tablets"
+    }, {
+        "name": "LEDs"
+    }]
+}, {
+    "category": "Clothing",
+    "itemType": [{
+        "name": "Jeans"
+    }, {
+        "name": "T-Shirts"
+    }, {
+        "name": "Shirts"
+    }]
+}, {
+    "category": "Footwear",
+    "itemType": [{
+        "name": "SportsShoes"
+    }, {
+        "name": "CasualShoes"
+    }, {
+        "name": "FormalShoes"
+    }]
+},{
+    "category":"Men",
+    "itemType": [{
+        "name": "SportsShoes"
+    }, {
+        "name": "CasualShoes"
+    }, {
+        "name": "FormalShoes"
+    },{
+        "name": "Accesories"
+    },{
+        "name": "Watches"
+    }]
+},{
+    "category":"Women",
+    "itemType": [{
+        "name": "InnerWear"
+    }, {
+        "name": "EthnicWear"
+    }, {
+        "name": "WesternWear"
+    },{
+        "name": "Accesories"
+    },{
+        "name": "Watches"
+    }]
+},{
+    "category":"Furnishing",
+    "itemType": [{
+        "name": "Lighting"
+    }, {
+        "name": "Furnishing"
+    }, {
+        "name": "PetSupplies"
+    },{
+        "name": "Furniture"
+    }]
+},{
+    "category":"Books"
+}]

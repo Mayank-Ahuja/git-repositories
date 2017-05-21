@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="/bower_components/materialize/dist/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <base href="/">
+</head>
+
+<body ng-app="myApp">
+    <nav>
+        <div class="nav-wrapper">
+            <div class="row">
+                <div class="col m2">
+                    <div class="brand valign-wrapper">
+                        <a href="/" class="right-align valign">Logo</a>
+                    </div>
+                </div>
+                <div class="col m10">
+                    <div class="row">
+                        <div class="col m8">
+                            <div class="row search-form">
+                                <form action="" class="col s12">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="search" type="search" required>
+                                            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                                            <i class="material-icons">close</i>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="login-sign col m4 valign-wrapper">
+                            <ul class="row valign">
+                                <li class="col s3"><a href="login">Login</a></li>
+                                <li class="col s3"><a href="signup">SignUp</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 m12">
+                            <div class="mainMenu">
+                                <ul ng-controller="menuCtrl">
+                                    <li ng-style="menuwidth" ng-mouseenter="showDrop=true" ng-mouseleave="showDrop=false" class="menu" ng-class="{'open':showDrop}" ng-repeat="menu in menus">
+                                        <a href="{{menu.category|lowercase}}">{{menu.category}}</a>
+                                        <ul class="dropdown-content">
+                                            <li class="itemType" ng-repeat="itemTypes in menu.itemType">
+                                                <a href="{{itemTypes.name|lowercase}}">{{itemTypes.name}}</a>
+                                                <ul>
+                                                    <li class="item" ng-repeat="items in itemTypes.item">
+                                                        <a href="{{items.name|lowercase}}">{{items.name}}</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quickLinks">
+                <div class="row">
+                    <div class="col s12 m10 offset-s2">
+                        <div class="quicklink">
+                            <ul ng-controller="quickLinkCtrl">
+                                <li>Go Quickly To -></li>
+                                <li class="links" ng-repeat="menus in quickMenu"><a ng-href="{{menus.name|lowercase}}">{{menus.name}}</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="row contain">
+        <div class="col s12 page-con" ng-view>
+
+        </div>
+    </section>
+</body>
+<script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/materialize/dist/js/materialize.min.js"></script>
+    <script src="/bower_components/angular/angular.min.js"></script>
+    <script src="/bower_components/angular-route/angular-route.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/models/service.js"></script>
+    <script src="js/controllers/controller.js"></script>
+    <script src="js/spa-routes.js"></script>
+    <script src="js/custom.js"></script>
+</html>

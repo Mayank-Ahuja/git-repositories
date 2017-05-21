@@ -1,0 +1,17 @@
+[{"pic":"images/mobiles/6s.jpeg","name":"iPhone 6s","features":"16Gb Memory, 2Gb RAM, 12Mp Camera","price":"45999"},
+  {"pic":"images/mobiles/note3.jpeg","name":"Redmi Note 3","features":"16Gb Memory, 3Gb RAM, 16Mp Camera","price":"9999"},
+  {"pic":"images/mobiles/motog4plus.jpg","name":"Moto G4 Plus","features":"32Gb Memory, 3Gb RAM, 16Mp Camera","price":"14999"},
+  {"pic":"images/mobiles/s7.jpeg","name":"Samsung Galaxy S7","features":"32Gb Memory, 4Gb RAM, 16Mp Camera","price":"54599"},
+  {"pic":"images/mobiles/nexus 6p.jpeg","name":"nexus 6p","features":"64Gb Memory, 3Gb RAM, 12.3Mp Camera","price":"28569"},
+  {"pic":"images/mobiles/yu yunicorn.jpeg","name":"yu Yunicorn","features":"32Gb Memory, 4Gb RAM, 13Mp Camera","price":"13499"},
+  {"pic":"images/mobiles/one plus3.jpg","name":"one plus 3","features":"64Gb Memory, 6Gb RAM, 16Mp Camera","price":"27999"},
+  {"pic":"images/mobiles/3s prime.jpeg","name":"Redmi 3s Prime Gold","features":"32Gb Memory, 3Gb RAM, 13Mp Camera","price":"8999"},
+  {"pic":"images/mobiles/mi max.jpeg","name":"Redmi mi max Gold","features":"32Gb Memory, 3Gb RAM, 16Mp Camera","price":"14999"},
+  {"pic":"images/mobiles/k5 note.jpeg","name":"Lenovo K5 Note Gold","features":"32Gb Memory, 4Gb RAM, 13Mp Camera","price":"13499"},
+  {"pic":"images/mobiles/galaxy j5.jpeg","name":"SAMSUNG Galaxy J5 - 6","features":"16Gb Memory, 2Gb RAM, 13Mp Camera","price":"11490"},
+  {"pic":"images/mobiles/canvas 6.jpeg","name":"Micromax Canvas 6 Champagne","features":"32Gb Memory, 3Gb RAM, 13Mp Camera","price":"13999"},
+  {"pic":"images/mobiles/zenfone 3.jpeg","name":"Asus Zenfone3","features":"32Gb Memory, 3Gb RAM, 16Mp Camera","price":"21999"},
+  {"pic":"images/mobiles/acer.jpeg","name":"Acer Z630S","features":"32Gb Memory, 3Gb RAM, 8Mp Camera","price":"8999"},
+  {"pic":"images/mobiles/x style.jpeg","name":"Moto X Style","features":"32Gb Memory, 3Gb RAM, 21Mp Camera","price":"28999"},
+  {"pic":"images/mobiles/note4.jpeg","name":"SAMSUNG Galaxy Note 4 ","features":"32Gb Memory, 3Gb RAM, 16Mp Camera","price":"59000"}
+]

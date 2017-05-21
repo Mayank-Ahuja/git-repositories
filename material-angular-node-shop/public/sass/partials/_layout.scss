@@ -1,0 +1,14 @@
+.contain {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.row {
+    .col {
+        &.page-con {
+            background: $page-bg;
+            padding: 0;
+        }
+    }
+}

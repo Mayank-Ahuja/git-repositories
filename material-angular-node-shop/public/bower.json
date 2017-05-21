@@ -1,0 +1,30 @@
+{
+  "name": "material angular node based shop app",
+  "authors": [
+    "Mayank-Ahuja <mayankahuja8894@gmail.com>"
+  ],
+  "description": "first of its kind proto",
+  "main": "",
+  "keywords": [
+    "angular",
+    "node",
+    "materialize"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.98.2",
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.6"
+  }
+}
